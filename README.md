@@ -13,3 +13,17 @@ windspeed_kt — wind speed, knots.
 Source: sknt in the raw METAR file.
 
 Additionally, 1 out of 744 hours is entirely missing in the data.
+
+## Data Dictionary
+
+### data/clean/weather_hourly.csv  (Partner A)
+| column       | meaning                                          | units |
+|--------------|--------------------------------------------------|-------|
+| hour         | timestamp — the hour that BEGINS                 | —     |
+| temp_f       | air temperature                                  | °F    |
+| dewpoint_f   | dew point                                        | °F    |
+| humidity_pct | relative humidity                                | %     |
+| windspeed_kt      | wind speed                                        | knots |
+
+**Convention:** `hour` is the hour that BEGINS. Weather is floored from the :51 observation.
+**Missing hours:** drop the row.
