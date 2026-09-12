@@ -1,4 +1,4 @@
-hour,temp,dewpoint,humidity,wind_speed
+hour,temp_f,dewpoint_f,humidity_pct,windspeed_kt
 2026-07-20 00:00:00,65.0,55.0,70.05,3.0
 2026-07-20 01:00:00,66.0,51.0,58.42,8.0
 2026-07-20 02:00:00,64.0,52.0,64.99,6.0
